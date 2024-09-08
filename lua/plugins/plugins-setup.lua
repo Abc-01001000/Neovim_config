@@ -33,7 +33,7 @@ return require('packer').startup(function(use)
   use {
     'nvim-tree/nvim-tree.lua',  -- 文档树
     requires = {
-      'nvim-tree/nvim-web-devicons', -- 文档树图标
+      'DaikyXendo/nvim-material-icon', -- 文档树图标
     }
   }
   use "christoomey/vim-tmux-navigator" -- 用ctl-hjkl来定位窗口
