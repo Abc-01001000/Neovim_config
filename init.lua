@@ -14,3 +14,7 @@ require("plugins/autopairs")
 require("plugins/bufferline")
 require("plugins/gitsigns")
 require("plugins/telescope")
+
+require('transparent').clear_prefix('BufferLine')
+require('transparent').clear_prefix('NvimTree')
+require('transparent').clear_prefix('lualine')
